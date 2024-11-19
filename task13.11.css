@@ -1,0 +1,60 @@
+.card1 {
+    background-color: blueviolet;
+    color: aliceblue;
+    width: 30%;
+    padding: 10px;
+}
+.card2 {
+    background-color: green;
+    color: black;
+    width: 30%;
+    padding: 10px;
+}
+.card3 {
+    background-color:blanchedalmond;
+    color: rgb(0, 0, 0);
+    width: 30%;
+    padding: 10px;
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+@media (max-width: 767px) {
+
+    .card-container {
+  
+      flex-direction: column;
+  
+    }
+  
+    .card {
+  
+      width: 100%;
+  
+      margin-bottom: 15px;
+  
+    }
+    .button1 {
+        display: none
+    }
+    .button2 {
+        display: none
+    }
+    .button3 {
+        display: none
+    }
+  
+  }
+  .button1 {
+    background-color: aqua;
+    border-radius: 20px;
+  }
+  .button2 {
+    background-color: rgb(215, 123, 36);
+    border-radius: 20px;
+  }
+  .button3 {
+    background-color: rgb(188, 132, 176);
+    border-radius: 20px;
+  }
